@@ -53,7 +53,7 @@ admin@sonic:~$ sudo config interface ip add eth0 192.168.101.17/24 192.168.101.1
 ```
 
 ### Step 4. Create certificates
-At start you will see the telemtry container is failing
+At start you will see the telemetry container is failing
 ```
 admin@sonic:~$ sudo docker container ls --all
 CONTAINER ID   IMAGE                                COMMAND                  CREATED          STATUS                      PORTS     NAMES
@@ -123,7 +123,7 @@ admin@sonic:~$ sudo openssl x509 -req -in /etc/sonic/telemetry/streamingtelemetr
   -days 365 -sha512
 ```
 
-Restart `telemtry` container:
+Restart `telemetry` container:
 ```
 admin@sonic:~$ sudo docker container restart telemetry
 telemetry
