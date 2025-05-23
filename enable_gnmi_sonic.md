@@ -95,7 +95,7 @@ Jan  2 11:04:07.455116 dev-pygnmi-sonic-003 INFO telemetry#supervisord: dialout 
 Jan  2 11:04:07.457616 dev-pygnmi-sonic-003 INFO telemetry#supervisord: dialout Yang model List: [sonic-acl.yang sonic-common.yang sonic-extension.yang sonic-extensions.yang sonic-interface.yang sonic-port.yang sonic-show-techsupport.yang sonic-showtech-annot.yang openconfig-acl.yang openconfig-acl-annot.yang]
 ```
 
-[Some furhter clue](https://github.com/sonic-net/sonic-mgmt/commit/19e92b19c0c7610429402ef15b30288947f6ca13)
+[Some further clue](https://github.com/sonic-net/sonic-mgmt/commit/19e92b19c0c7610429402ef15b30288947f6ca13)
 
 ```
 admin@sonic:~$ sudo openssl req -x509 -newkey rsa:4096 -keyout /etc/sonic/telemetry/dsmsroot.key -out /etc/sonic/telemetry/dsmsroot.cer -sha256 -days 365 -nodes -subj '/CN=lab-ca'
