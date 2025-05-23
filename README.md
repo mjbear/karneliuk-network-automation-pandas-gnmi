@@ -8,6 +8,6 @@ This repo contains various Python script and testing documentation explaining ho
 ## How to use this repository
 1. Clone it to your host.
 2. Install the content of `requirements.txt` for your Python.
-3. Ensure you followed steps above, create certificates and copied them to local directory `certs`.
+3. Ensure you followed steps above, create certificates and copy them to local directory `certs`.
 4. Amend the credentials in the python files.
 5. Run the `python sonic_test.py` or `sonic_gnmi_to_spreadsheet.py`.
